@@ -1,13 +1,14 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   margin: 0;
   padding: 0;
   background: #fdfcfb;
-  color: #333;
+  color: #5e4636;
 }
 
 header {
-  background: #dfe9f3;
+  background: #446a4b;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
@@ -37,6 +38,11 @@ main {
   padding: 15px;
   background: #fff;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+.step:hover {
+  background: #f0f0f0;
 }
 
 .step.open .content {
